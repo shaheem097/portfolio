@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaheem</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/55cada2b22.js" crossorigin="anonymous"></script></head>
+<body>
+    <div id="header">
+       <div class="container">
+        <nav>
+            <img src="image/logo.jpg" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark"></i>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="header-text" style="color: white;">
+            <p>ui/ux Designer</p>
+            <h1>Hi, Iam <span>Shaheem</span><br>From India</h1>
+
+        </div>
+       </div>
+       <!--about-->
+       <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                 <img src="image/bg-image.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a UI Designer and Front End Developer from kerala, India.
+                        I enjoy taking complex problems and turning them into simple and beautiful interface designs. I also love the logic and structure of coding and always strive to wife elegant and efficient code, whether in be HTML. CSS or juery.
+                        When I'm not coding or pushing pixels. youll ind me in the gym or on the court shooting some hoops.</p>
+                 <div class="tab-titles">
+                    <p class="tab-inks active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-inks" onclick="opentab('Experiance')">Experiance</p>
+                    <p class="tab-inks" onclick="opentab('Education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI?UX</span><br>Designing Web/app interfaces</li>
+                        <li><span>Web Development</span><br>Web app Developments</li>
+                        <li><span>App Development</span><br>Buiding Android/IOS apps</li>
+                    </ul>
+
+                 </div>
+                 <div class="tab-contents" id="Experiance">
+                    <ul>
+                        <li><span>2022-current</span><br>Working in Brototype</li>
+                        <li><span>2019-2021</span><br>UI/UX Training at Cosmos institute</li>
+                        <li><span>2015-2018</span><br>priyadhashini college</li>
+                    </ul>
+
+                 </div>
+                 <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2015-2017</span><br>Plus Two Science at KMHSS</li>
+                        <li><span>2017-2020</span><br>BCA at Priyadharshini College</li>
+                        <li><span>2020-2022</span><br>PG in cosmos Bakery</li>
+                    </ul>
+
+                 </div>
+                </div>
+
+            </div>
+
+        </div>
+
+       </div>
+    </div>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+               <div>
+                
+                <h2>Web Design</h2>
+                <p>Bringing the idea on the web-portal<br>in form of a presentation to showcase<br>the current requirment on the web portal</p>
+                <a href="#">Learn more</a>   
+            </div>
+            <div>
+                <h2>UI/UX Design</h2>
+                <p>Bringing the idea on the web-portal<br>in form of a presentation to showcase<br>the current requirment on the web portal</p>
+                <a href="#">Learn more</a>   
+            </div>
+            <div>
+                <h2>App Design</h2>
+                <p>Bringing the idea on the web-portal<br>in form of a presentation to showcase<br>the current requirment on the web portal</p>
+                <a href="#">Learn more</a>   
+            </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="worklist" style="color:rgb(231, 14, 14)">
+                <div class="work">
+                    <img src="image/work1.jpg" alt="" style="height: 200px;">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people<br>around the world.Download it from play store
+                        </p>
+                        <a href="#"><i class=""fas fa-external-link-alt></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="image/work2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people<br>around the world.Download it from play store
+                        </p>
+                        <a href="#"><i class=""fas fa-external-link-alt></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="image/work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app connects you to the talented people<br>around the world.Download it from play store
+                        </p>
+                        <a href="#"><i class=""fas fa-external-link-alt></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+          
+
+        </div>
+
+    </div>
+    <!--contact-->
+    <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+        <form id="submit-form" action=""  class="email-form mt-4">
+          <div class="row" style="flex-direction: column;">
+            <div class="col-md-6 form-group">
+              <input  type="text"  name="name" class="form-control" id="name" placeholder="Your Name" onkeyup="validateName()" required>
+              <span id="name-error" class="validation-label"></span>
+             
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" onkeyup="validateEmail()" required>
+              <span id="email-error" class="validation-label"></span>
+              
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" onkeyup="validateSubject()" required>
+            <span id="subject-error" class="validation-label"></span>
+             
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" onkeyup="validateMessage()" required></textarea>
+            <span id="message-error" class="validation-label"></span>
+            
+          </div>
+          <div class="my-3">
+            
+            <div class="error-message"></div>
+            
+          </div>
+          <div class="text-center form-control-submit-button"><button class="btn btn-primary" style="color: black;" type="submit" onclick="return validateForm()">Send Message</button></div>
+          <span id="submit-error" class="text-center button-form"></span>
+        </form>
+  
+      </div>
+    </section><!-- End Contact Section -->
+  
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+          $("#submit-form").submit((e)=>{
+              e.preventDefault()
+              $.ajax({
+                  url:"https://script.google.com/macros/s/AKfycbwL2NMD_08DzapvIRlsYlBUGauLzpq35qj5E1ka5KFlfPryO8O0w91cg3a88LSaBuirZg/exec",
+                  data:$("#submit-form").serialize(),
+                  method:"post",
+                  success:function (response){
+                      alert("Form submitted successfully")
+                      window.location.reload()
+                      //window.location.href="https://google.com"
+                  },
+                  error:function (err){
+                      alert("Something Error")
+      
+                  }
+              })
+          })
+      </script>
+  </body>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links")
+        var tabcontents=document.getElementsByClassName("tab-contents")
+       
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
